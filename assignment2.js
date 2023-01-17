@@ -1,3 +1,6 @@
+1. Write a Javascript function to check whether a triangle is equilateral,
+isosceles or scalene
+
 function classifyTriangle(a, b, c) {
     if (a === b && b === c) {
       return "equilateral";
@@ -12,7 +15,10 @@ function classifyTriangle(a, b, c) {
   console.log(classifyTriangle(3, 4, 5)); 
 
 
-  function getGrade(marks) {
+2. Write a function using switch case to find the grade of a student based
+on marks obtained
+
+function getGrade(marks) {
     switch (true) {
       case marks >= 90 && marks <= 100:
         return "S grade";
@@ -36,6 +42,9 @@ function classifyTriangle(a, b, c) {
   console.log(getGrade(62));
   console.log(getGrade(-2)); 
   
+        
+ 3. Write a JavaScript program to find the sum of the multiples of 3 and 5
+under 1000       
   
   let sum = 0;
 for (let i = 0; i < 1000; i++) {
@@ -44,6 +53,12 @@ for (let i = 0; i < 1000; i++) {
   }
 }
 console.log(sum); 
+        
+4. Write a program to find the factorial of all prime numbers between a
+given range . Range will be passed as 2 values in the function
+parameters. eg- if it is needed to find the values for numbers 1-100, then
+function declaration can look like - function prime(1,100).
+
 
 function primeFactorial(start, end) {
   for (let i = start; i <= end; i++) {
