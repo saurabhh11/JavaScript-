@@ -1,3 +1,10 @@
+1) Write a JavaScript program to get the volume of a Cylinder, Sphere and
+Cone with four decimal places using objects and classes.
+
+Create classes for volumes for each geometric shape which returns the
+output using the getVolume() method.
+
+
 class Cylinder {
     constructor(radius, height) {
         this.radius = radius;
@@ -31,12 +38,12 @@ class Cone {
 }
 // Cylinder
 let cylinder = new Cylinder(5, 10);
-console.log(cylinder.getVolume()); // should return approximately 392.70
+console.log(cylinder.getVolume()); 
 
 // Sphere
 let sphere = new Sphere(5);
-console.log(sphere.getVolume()); // should return approximately 523.59
+console.log(sphere.getVolume()); 
 
 // Cone
 let cone = new Cone(5, 10);
-console.log(cone.getVolume()); // should return approximately 52.35
+console.log(cone.getVolume()); 
