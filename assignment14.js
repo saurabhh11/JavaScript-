@@ -1,3 +1,8 @@
+1. Write a JavaScript program to:
+a) filter employees according to department = IT
+b) filter employees who earn a salary < 65000
+
+
 const employees = [
     { name: "John", department: "IT", salary: 75000 },
     { name: "Jane", department: "Marketing", salary: 60000 },
@@ -14,6 +19,11 @@ console.log(ITEmployees);
 const lowSalaryEmployees = employees.filter(employee => employee.salary < 65000);
 console.log(lowSalaryEmployees);
 
+
+2. Write a JavaScript program to filter the hospitals according to:
+a) Number of Beds > 200
+b) Availability of Beds = Yes
+c) Location = Pune
 
 const hospitals = [
     { name: "KP Hospital", location: "Pune", beds: 250, available: "Yes" },
